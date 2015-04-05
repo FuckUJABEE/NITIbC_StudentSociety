@@ -1,0 +1,47 @@
+.button {
+	font-family:meiryo, sans-serif;
+    color:				#fff;
+    text-decoration:	none;
+	background-color:	rgba(0,0,0,0.6);
+    position:			relative;
+    overflow:			hidden;
+    text-align:			center;
+    display:			block;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-size: 100px 100px;
+    background-position: rightt 50%;
+	background-color:	rgba(33,33,33,0.6);}
+
+.button::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    background-size: 38px 38px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.button:hover::before {
+    left: 240px;
+    background-size: 80px 80px;
+    background: url("../dat/pict/icon.png") no-repeat 0 50%;
+
+}
+
+.button span {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+}
+
+.button:hover span {
+    margin-left: 35%;
+
+}

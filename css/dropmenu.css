@@ -1,0 +1,102 @@
+#dropmenu {
+  list-style-type: none;
+  width: 100%;
+  margin: 0 auto;
+  font-family:meiryo, sans-serif;
+}
+
+
+#dropmenu li {
+  position: relative;
+  width: 20%;
+  float: left;
+  text-align: left;
+}
+
+#dropmenu li a {
+  display: block;
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(83,c0,ef,0.6);
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  text-decoration: none;
+  border-left: thin solid white;
+  text-align: left;
+
+}
+#dropmenu > li:hover > a {  background: #000 }
+
+#dropmenu li ul {
+  list-style: none;
+  position: absolute;
+  z-index: 100;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#dropmenu li ul li {
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  color: #fff;
+  transition: .2s;
+}
+
+#dropmenu li ul li a {
+  padding: 13px 15px;
+  background-color: rgba(0,0,0,0.6);
+  text-align: left;
+  font-size: 12px;
+  font-weight: normal;
+  border-top: thin solid white;
+}
+#dropmenu > li:hover li:hover > a {  background: #ddeefb }
+
+#dropmenu li:hover > ul > li {
+  overflow: visible;
+  height: 38px;
+}
+#dropmenu li ul li ul {
+  top: 0;
+  left: 100%;
+}
+#dropmenu li:last-child ul li ul {
+  left: -100%;
+  width: 100%;
+}
+#dropmenu li ul li ul li a {
+/*  background: #ddeefb */
+  background-color: rgba(83,83,83,0.6);
+
+}
+
+#dropmenu li:hover ul li ul li:hover > a
+{
+  background: #333333;
+
+}
+
+#dropmenu li ul li ul:before {
+  position: absolute;
+  content: "";
+  top: 13px;
+  left: -20px;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-left-color: #000;
+}
+#dropmenu li:last-child ul li ul:before {
+  position: absolute;
+  content: "";
+  top: 13px;
+  left: 200%;
+  margin-left: -20px;
+  border: 5px solid transparent;
+  border-right-color: #454e08;
+}

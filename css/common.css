@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+ 
+body{
+	display:none
+/*	font-family : "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", sans-selif;*/
+
+	font-family:meiryo, sans-serif;
+	font-size: 15px;
+
+	background-attachment: fixed;
+	background-image: url(../dat/pict/bg.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+
+}
+
+img {
+/*    max-width: 100%;
+    height: auto;*/
+}
+
+section{
+	background-color: rgba(0,0,0,0.3);
+}
+
+footer{
+	text-align: right;
+	float: both;	
+}
+
+#page{
+	width: 70%;
+	margin: 0% 5%;
+	padding: 100px 0px;
+	float: left;
+}
+
+#baner{	
+	padding: 30px;
+	margin: 0px;
+	
+}
+
+.japanese-sentence{
+	font-size: 36px;
+	font-family: 'Playfair Display', serif;
+}
+
+.english-sentence{
+	font-size: 28px;
+	font-family: 'Shadows Into Light', cursive;
+	margin: 30px;
+	padding: 0px 0px 0px 7%;
+}
+
+#title{
+	padding: 10px 10px;
+	line-height: 1.7;
+}
+
+#main{
+	padding:0% 5% 0% 10%;
+	width: 90%
+	margin: 10px 50px 10px 50px;
+}
+
+.data{
+	white-space: nowrap;
+	padding: 35px;
+	margin: 0px 50px 0px 0px;
+	background-color: rgba(10,10,10,0.3);
+}
+
+.class{
+	white-space: nowrap;
+	padding: 35px 50px;
+	margin: 0px 30px 0px 0px;
+	background-color: rgba(10,10,10,0.3);
+}
+
+.section-title{
+	font-family: 'Oswald', sans-serif;
+	padding: 30px 0px;
+	background-color: rgba(0,0,0,0.2);
+	vertical-align: center;
+
+	font-family: 'Noto Sans Japanese', serif;
+
+}
+
+.content{
+	font-size: 80%;
+	margin: 0px 0px 75px 0px;
+	padding: 20px 50px 100px 100px;
+	line-height: 300%;
+}
+
+
+#viewer img{
+	top: 30px;
+	left: 0;
+	position: absolute;
+}
+
+#twitter{
+	margin: 100px 0px;
+	width: 20%;
+	float: right;
+}

@@ -1,0 +1,44 @@
+﻿サッカー部 soccer
+ソフトテニス部 softtennis
+テニス部 tennis
+バドミントン部 badminton
+バレーボール部 volleyball
+ワンダーフォーゲル部 mountain
+剣道部 kendo
+卓球部 tabletennis
+弓道部 kyudo
+柔道部 judo
+硬式野球部 baseball
+陸上競技部 TaF
+女子バレー同好会 girlsvolleyball
+軟式野球同好会 softball
+
+ボランティア部 volunteer
+ラジオ部 radio
+写真部 photo
+吹奏楽部 brassband
+天文部 astoromy
+将棋部 syogi
+書道部 syodo
+絵画部 picture
+自動車部 car
+茶道部 sadou
+軽音部 band
+文芸部 literary
+
+ジャグリング同好会 jaggling
+WorldWide Web部 WWW
+ロボット部 robot
+漫画研究会 comics
+CAD研究同好会 CAD
+数学研究会 math
+学生ベンチャー同好会 venture
+DTM同好会 DTM
+
+plan
+account
+public_info
+info_massage
+relation
+environment
+investigation

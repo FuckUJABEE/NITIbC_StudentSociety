@@ -1,0 +1,228 @@
+.button2 {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+	position:absolute;
+    z-index: 10;
+    display: block;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    
+    right: 41%;
+    top: 0%;
+}
+
+.button2::before {
+    content: '';
+    background-color: #e1fc99;
+    display: block;
+    position:absolute;
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+    border-radius: 50%;
+    box-shadow:
+        0 0 0 0 #fff,
+        0 0 0 0 #e1fc99;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+.button2:hover::before {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    box-shadow:
+        0 0 0 25px #fff,
+        0 0 0 27px #e1fc99;
+}
+
+.button3 {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    position:absolute;
+    z-index: 10;
+    display: block;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    
+    top: 40%;
+    left: 83%;
+
+}
+
+.button3::before {
+    content: '';
+    background-color: #fdcbd8;
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+    border-radius: 50%;
+    box-shadow:
+        0 0 0 0 #fff,
+        0 0 0 0 #fdcbd8;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+.button3:hover::before {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    box-shadow:
+        0 0 0 25px #fff,
+        0 0 0 27px #fdcbd8;
+}
+
+.button4 {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    position:absolute;
+    z-index: 10;
+    display: block;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+
+    top: 71%;
+    left: 83%;
+}
+
+.button4::before {
+    content: '';
+    background-color: #d2dff6;
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+    border-radius: 50%;
+    box-shadow:
+        0 0 0 0 #fff,
+        0 0 0 0 #d2dff6;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+.button4:hover::before {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    box-shadow:
+        0 0 0 25px #fff,
+        0 0 0 27px #d2dff6;
+}
+
+.button5 {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    position:absolute;
+    z-index: 10;
+    display: block;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    
+    top: 83%;
+    right: 41%;
+}
+
+.button5::before {
+    content: '';
+    background-color: #d5cef3;
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+    border-radius: 50%;
+    box-shadow:
+        0 0 0 0 #fff,
+        0 0 0 0 #d5cef3;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+.button5:hover::before {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    box-shadow:
+        0 0 0 25px #fff,
+        0 0 0 27px #d5cef3;
+}
+
+.button6 {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    position:absolute;
+    z-index: 10;
+    display: block;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    
+    top:60%;
+    right:83%;
+}
+
+.button6::before {
+    content: '';
+    background-color: #fcdfba;
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+    border-radius: 50%;
+    box-shadow:
+        0 0 0 0 #fff,
+        0 0 0 0 #fcdfba;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+.button6:hover::before {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    box-shadow:
+        0 0 0 25px #fff,
+        0 0 0 27px #fcdfba;
+}
+
+.button7 {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    position:absolute;
+    z-index: 10;
+    display: block;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    
+    top:40%;
+    right:83%;
+}
+
+.button7::before {
+    content: '';
+    background-color: #fcdfba;
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+    border-radius: 50%;
+    box-shadow:
+        0 0 0 0 #fff,
+        0 0 0 0 #fcdfba;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+.button7:hover::before {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    box-shadow:
+        0 0 0 25px #fff,
+        0 0 0 27px #fcdfba;
+}
